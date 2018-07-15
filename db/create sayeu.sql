@@ -8,4 +8,10 @@ email varchar(30),
 message varchar(10000),
 regarding int,
 code varchar(10),
-rating int)
+rating int);
+
+desc feedback;
+
+insert into feedback values ('Bill','tiandabill@msn.com','good',1,'ok',5);
+
+select * from feedback;
